@@ -11,11 +11,11 @@
      var empId=$('#empid').val();
      $('#btnSubmit').click(function(e){
        e.preventDefault();
-       //$.cookie('First_Name',fname,{expires:1,path:'/'});
-       //$.cookie('Last_Name',lname,{expires:1,path:'/'});
-       //$.cookie('Emp_ID',empId,{expires:1,path:'/'});
-       console.log($('#fname').val());
-       //window.location.href="activity.html";
+       $.cookie('First_Name',fname,{expires:1,path:'/'});
+       $.cookie('Last_Name',lname,{expires:1,path:'/'});
+       $.cookie('Emp_ID',empId,{expires:1,path:'/'});
+      // console.log($('#fname').val());
+       window.location.href="activity.html";
        
      });
    
